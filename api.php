@@ -32,4 +32,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     ];
     $tasks[] = $newTask;
     writeTasks($tasks);
+    
 }

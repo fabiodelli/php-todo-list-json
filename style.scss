@@ -14,11 +14,13 @@
       text-decoration: line-through;
     }
     .status {
-      width: 30%;
+      width: 25%;
       display: inline-block;
+      margin-right: 1rem;
     }
     .delete{
-      width: 70%;
+      width: 65%;
+      display: inline-block;
     }
   }
 }

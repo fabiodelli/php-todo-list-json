@@ -28,7 +28,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     $tasks = readTasks();
     $newTask = [
         'id' => uniqid(),
-        'title' => $data['title']
+        'title' => $data['title'],
+        'status' => false
     ];
     $tasks[] = $newTask;
     writeTasks($tasks);

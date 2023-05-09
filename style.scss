@@ -1,0 +1,24 @@
+.container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  .lista {
+    display: flex;
+    flex-direction: column;
+    .task {
+      width: 100%;
+      
+      margin-bottom: 1rem;
+    }
+    .completed {
+      text-decoration: line-through;
+    }
+    .status {
+      width: 30%;
+      display: inline-block;
+    }
+    .delete{
+      width: 70%;
+    }
+  }
+}
